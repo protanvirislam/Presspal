@@ -1,0 +1,338 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": { 
+    "appearanceTools": true,
+    "border": {
+      "color": true,
+      "width": true,
+      "radius": true,
+      "style": true
+    },
+    "color": {
+      "customGradient": false,
+      "defaultGradients": false,
+      "link": true,
+      "custom": false,
+      "defaultPalette": false,
+
+      "palette": [
+        {
+          "slug": "p-white",
+          "color": "rgb(255,255,255)",
+          "name": "Presspal white"
+        },
+
+        {
+          "slug": "p-gray-100",
+          "color": "rgb(243 244 246)",
+          "name": "Presspal Gray 100"
+        },
+        {
+          "slug": "p-gray-200",
+          "color": "rgb(229 231 235)",
+          "name": "Presspal Gray 200"
+        },
+        {
+          "slug": "p-gray-300",
+          "color": "rgb(209 213 219)",
+          "name": "Presspal Gray 300"
+        },
+        {
+          "slug": "p-gray-400",
+          "color": "rgb(156 163 175)",
+          "name": "Presspal Gray 400"
+        },
+        {
+          "slug": "p-gray-500",
+          "color": "rgb(107 114 128)",
+          "name": "Presspal Gray 500"
+        },
+        {
+          "slug": "p-gray-600",
+          "color": "rgb(75 85 99)",
+          "name": "Presspal Gray 600"
+        },
+        {
+          "slug": "p-gray-700",
+          "color": "rgb(55 65 81)",
+          "name": "Presspal Gray 700"
+        },
+        {
+          "slug": "p-gray-800",
+          "color": "rgb(31 41 55)",
+          "name": "Presspal Gray 800"
+        },
+        {
+          "slug": "p-gray-900",
+          "color": "rgb(17 24 39)",
+          "name": "Presspal Gray 900"
+        },
+        {
+          "slug": "p-primary",
+          "color": "rgb(239 68 68)",
+          "name": "Presspal Primary"
+        },
+        {
+          "slug": "p-accent",
+          "color": "rgb(67 56 202)",
+          "name": "Presspal Accent"
+        },
+        {
+          "slug": "p-success",
+          "color": "rgb(52 211 153)",
+          "name": "Presspal Success"
+        },
+        {
+          "slug": "p-info",
+          "color": "rgb(96 165 250)",
+          "name": "Presspal Info"
+        },
+        {
+          "slug": "p-warning",
+          "color": "rgb(251 146 60)",
+          "name": "Presspal Warning"
+        },
+        {
+          "slug": "p-danger",
+          "color": "rgb(236 72 153)",
+          "name": "Presspal Danger"
+        }
+      ],
+
+      "duotone": [
+        {
+          "slug": "p-blue--white",
+          "colors": ["#0073aa", "#ffffff"],
+          "name": "Presspal Blue and White"
+        },
+        {
+          "slug": "p-black--blue",
+          "colors": ["#000000", "#0073aa"],
+          "name": "Presspal Black and Blue"
+        },
+        {
+          "slug": "p-black--white",
+          "colors": ["#000000", "#ffffff"],
+          "name": "Presspal Black and White"
+        }
+      ],
+      "gradients": [
+        {
+          "name": "Blue Gradient",
+          "slug": "blue-gradient",
+          "gradient": "linear-gradient(135deg, #0073aa 0%, #00a0d2 100%)"
+        },
+        {
+          "name": "Sunset Gradient",
+          "slug": "sunset-gradient",
+          "gradient": "linear-gradient(90deg, #ff5f6d 0%, #ffc371 100%)"
+        },
+        {
+          "name": "Purple Gradient",
+          "slug": "purple-gradient",
+          "gradient": "linear-gradient(135deg, #6a11cb 0%, #2575fc 100%)"
+        },
+        {
+          "name": "Green Gradient",
+          "slug": "green-gradient",
+          "gradient": "linear-gradient(90deg, #56ab2f 0%, #a8e063 100%)"
+        }
+      ]
+    },
+    "typography": { 
+      "writingMode": true,
+      "lineHeight": true,
+      "fluid": true,
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "0.875rem",
+          "name": "Small",
+          "fluid": false
+        },
+        {
+          "slug": "medium",
+          "size": "1.375rem",
+          "name": "Medium",
+          "fluid": false
+        },
+        {
+          "slug": "large",
+          "size": "2.25rem",
+          "name": "Large",
+          "fluid": false
+        },
+        {
+          "slug": "x-large",
+          "size": "3rem",
+          "name": "Xtra Large",
+          "fluid": false
+        },
+        {
+          "slug": "gigantic",
+          "size": "3.5rem",
+          "name": "Gigantic",
+          "fluid": {
+            "min": "2rem",
+            "max": "4.5rem"
+          
+          }
+      
+        }
+      ],
+      
+      
+    "fontFamilies": [
+        {
+          "fontFamily": "Pacifico, cursive",
+          "slug": "p-pacifico",
+          "name": "Presspal Pacifico"
+        },
+        {
+          "fontFamily": "Gwendolyn, cursive",
+          "slug": "p-gwendolyn",
+          "name": "Presspal Gwendolyn"
+        },
+        {
+          "fontFamily": "Rakkas, serif",
+          "slug": "p-rakkas",
+          "name": "Presspal Rakkas"
+        },
+        {
+          "fontFamily": "Rubik, san-serif",
+          "slug": "p-rubik",
+          "name": "Presspal Rubik"
+        }
+    ]
+    },
+    "spacing": {
+      "customSpacingSize": true,
+      "defaultSpacingSizes": true,
+      "margin": true,
+      "padding": true,
+         "units": [
+          "px",
+          "em",
+          "rem",
+          "vh",
+          "vw",
+          "%"
+         ],
+         "blockGap": true
+    },
+    "blocks": {
+      "core/site-title": {
+        "typography": {
+          "fontFamilies": [
+            {
+              "fontFamily": "Pacifico, cursive",
+              "slug": "p-pacifico",
+              "name": "Presspal Pacifico"
+            }
+          ]
+        },
+        "color": {
+          "defaultPalette": false,
+
+          "palette": [
+            {
+              "slug": "presspal-primary",
+              "color": "#ef4444",
+              "name": "Presspal Primary"
+            }
+          ],
+          "custom": true,
+          "defaultDuotone": true,
+          "defaultGradients": false,
+          "customGradient": false,
+          "link": true
+        }
+      },
+      "core/cover": {
+        "color": {
+          "customDuotone": false,
+          "defaultDuotone": false
+        }
+      },
+      "core/paragraph": {
+        "color": {
+          "custom": true,
+          "defaultGradients": true,
+          "customGradient": false
+        }
+      }
+    },
+    "layout": {
+      "contentSize": "900px",
+          "wideSize": "1200px",
+      "allowCustomContentAndWideSize": true,
+      "allowEditing": true
+    }
+  },
+
+
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--p-rubik)",
+      "fontSize": "16px",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textTransform": "none",
+      "lineHeight": "inherit"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "text": "var(--wp--preset--color--p-white)",
+          "gradient": "var(--wp--preset--gradient--purple-gradient)"
+        }
+      },
+      "h5": {
+        "color": {
+          "text": "var(--wp--preset--color--p-accent)"
+        }
+      },
+
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--p-primary)"
+        },
+        "typography": {
+          "textDecoration": "underline"
+        }
+      }
+    },
+    "color": {
+      "background": "var(--wp--preset--color--p-gray-300)",
+      "text": "var(--wp--preset--color--p-gray-700)"
+    },
+    "spacing": {
+      "padding": {
+        "top": "2rem",
+        "bottom": "2rem",
+        "left": "2rem",
+        "right": "2rem"
+      },
+      "margin": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      }
+    },
+    "blocks": {
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--p-pacifico)"
+        },
+        "color": {
+          "text": "var(--wp--preset--color--p-primary)"
+        }
+       
+      },
+      "corce/over": {}
+    }
+  }
+}
