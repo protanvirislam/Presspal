@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
   "settings": { 
-    "appearanceTools": true,
+    
     "border": {
       "color": true,
       "width": true,
@@ -186,7 +186,7 @@
     "fontFamilies": [
         {
           "fontFamily": "Pacifico, cursive",
-          "slug": "p-pacifico",
+          "slug": "u-pacifico",
           "name": "Presspal Pacifico"
         },
         {
@@ -225,10 +225,10 @@
       "core/site-title": {
         "typography": {
           "fontFamilies": [
-            {
-              "fontFamily": "Pacifico, cursive",
-              "slug": "p-pacifico",
-              "name": "Presspal Pacifico"
+            { 
+              "fontFamily": "Pacifico, sans-serif", 
+              "slug": "u-pacifico",
+              "name": "Udemy Pacifico" 
             }
           ]
         },
@@ -273,6 +273,7 @@
 
 
   "styles": {
+
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--p-rubik)",
       "fontSize": "16px",
@@ -281,6 +282,7 @@
       "textDecoration": "none",
       "textTransform": "none",
       "lineHeight": "inherit"
+      
     },
     "elements": {
       "button": {
@@ -309,12 +311,7 @@
       "text": "var(--wp--preset--color--p-gray-700)"
     },
     "spacing": {
-      "padding": {
-        "top": "2rem",
-        "bottom": "2rem",
-        "left": "2rem",
-        "right": "2rem"
-      },
+  
       "margin": {
         "top": "0px",
         "bottom": "0px",
@@ -331,8 +328,8 @@
           "text": "var(--wp--preset--color--p-primary)"
         }
        
-      },
-      "corce/over": {}
+      }
+ 
     }
   }
 }
